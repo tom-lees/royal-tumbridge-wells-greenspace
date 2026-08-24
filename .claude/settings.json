@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git show*)",
+      "Bash(git add*)",
+      "Bash(git commit*)",
+      "Bash(git branch)",
+      "Bash(git fetch*)"
+    ],
+    "ask": [
+      "Bash(git push*)",
+      "Bash(rm *)",
+      "Bash(git rm*)",
+      "Bash(rmdir*)",
+      "Bash(git branch -d*)",
+      "Bash(git branch -D*)",
+      "Bash(git tag -d*)"
+    ],
+    "deny": [
+      "Bash(git push -f*)",
+      "Bash(git push --force*)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean -f*)",
+      "Bash(git clean --force*)",
+      "Bash(git checkout -f*)",
+      "Bash(git checkout --force*)",
+      "Bash(rm -rf*)",
+      "Bash(rm -fr*)",
+      "Bash(rm -f *)"
+    ],
+    "disableBypassPermissionsMode": "disable"
+  }
+}
