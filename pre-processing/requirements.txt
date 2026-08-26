@@ -1,0 +1,10 @@
+geopandas
+rasterio
+pyproj
+shapely
+numpy
+pandas
+trimesh
+mapbox-earcut  # polygon triangulation backend trimesh needs to extrude buildings
+scipy  # trimesh needs this for GLB vertex color export
+matplotlib
