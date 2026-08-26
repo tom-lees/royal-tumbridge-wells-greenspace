@@ -1,0 +1,15 @@
+# Generated pipeline outputs — regenerate via main.py / checks scripts, never commit
+pre-processing/output/
+pre-processing/data/raster_index.json
+pre-processing/data/grid.json
+pre-processing/__pycache__/
+**/__pycache__/
+*.pyc
+
+# Raw DEFRA/OSM geodata — large binaries, not source. DSM/DTM tiles come from
+# download_dsm_dtm.py, footprint shapefiles from Geofabrik (see
+# pre-processing/data/footprints/SOURCES.md for exactly what/where).
+pre-processing/data/dsm/
+pre-processing/data/dtm/
+pre-processing/data/dsm_last_return/
+pre-processing/data/footprints/*/
